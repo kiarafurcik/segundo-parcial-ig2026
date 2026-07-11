@@ -1,2 +1,5 @@
-# segundo-parcial-ig2026
-2do parcial de informática general 
+Kiara Constanza Furci Kupelian
+
+Segundo Parcial - Informática General
+
+Artes Multimediales - UNA
