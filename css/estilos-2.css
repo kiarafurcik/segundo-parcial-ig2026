@@ -1,0 +1,130 @@
+body {
+    background-image: url(../img/fondo.png);
+    background-repeat: repeat;
+    color: white;
+}
+img {
+    width: 80%;
+    height: auto;
+    border: 5px solid #001e3e;
+    margin: 20px 0;
+    display: block;
+}
+nav {
+    background-color: #01366f;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border:#033061 solid 5px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: Arvo, serif;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.contenedor {
+    background-color: rgba(1, 54, 111, 0.9);
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+.principal {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+header {
+    justify-content: center;
+    text-align: center;
+}
+.columnas {
+    background-color: rgba(2, 34, 68, 0.9);
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+.columnasDos {
+    background-color: rgba(2, 34, 68, 0.9);
+    width: 35%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+#columnaDiferente {
+    background-color: rgba(2, 34, 68, 0.9);
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+.imagen {
+    display: block;
+    margin: 0 auto;
+}
+blockquote {
+    font-style: italic;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 20px 0;
+}
+a:hover {
+    color: turquoise;
+}
+a:active {
+    color: rgb(7, 39, 178);
+}
+footer a {
+    color: turquoise;
+}
+#video {
+    max-width: 50%;
+    padding: 20px;
+}
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Arvo', serif;
+}
+blockquote {
+    font-size: 1.5rem;
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+}
+
+#contenedor-aside {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(2, 34, 68, 0.9);
+}
+
+#contenedor-asideDos {
+    display: block;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(2, 34, 68, 0.9);
+}
+
+
+
+#texto {
+    text-align: center;
+    align-self: center;
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+}
