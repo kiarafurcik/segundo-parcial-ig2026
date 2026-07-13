@@ -112,7 +112,37 @@ blockquote {
     margin-top: 20px;
     background-color: rgba(2, 34, 68, 0.9);
 }
-
+#contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(2, 34, 68, 0.9);
+    font-family: 'Arvo', serif;
+}
+#contenedor-formulario fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(2, 34, 68, 0.9);
+}
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    max-width: 200px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #01366f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    max-width: 200px;
+    font-family: 'Arvo', serif;
+}
 #contenedor-asideDos {
     display: block;
     padding: 20px;
@@ -120,11 +150,13 @@ blockquote {
     background-color: rgba(2, 34, 68, 0.9);
 }
 
-
-
 #texto {
     text-align: center;
     align-self: center;
     font-family: 'Arvo', serif;
     font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #010b16;
 }
