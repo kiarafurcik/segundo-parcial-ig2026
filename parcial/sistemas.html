@@ -37,7 +37,7 @@
                             <h2>El rol del artista-programador</h2>
                             <p>En la práctica de Reas, el artista asume el rol de programador. En lugar de intervenir directamente sobre la imagen final, diseña el conjunto de instrucciones que dará lugar a múltiples resultados posibles.</p>
                             <p>Este cambio de rol implica una forma distinta de pensar el proceso creativo. La autoría se desplaza hacia el diseño del sistema, mientras que la ejecución introduce elementos de autonomía y sorpresa en la obra.</p>
-                            <img src="../img/Casey.jpe" alt="Casey Reas" class="imagen"> <!-- Imagen agregada de Google -->
+                            <img src="../img/casey.jpe" alt="Casey Reas" class="imagen"> <!-- Imagen agregada de Google -->
                         </section>
                     </div>
                     <div class="columnas">
@@ -48,6 +48,38 @@
                             <img src="../img/influencia.jpg" alt="Influencia de Casey Reas" class="imagen"> <!-- Imagen agregada de Google -->
                         </section>
                     </div>
+                    </div>
+                    <div id="contenedor-formulario">
+                        <form method="post" action="#">
+                            <fieldset id="primerCampo">
+                                <legend>Ejercicio Interactivo: Gestiona la producción de instalaciones del estudio artístico de Casey Reas</legend>
+                                <label for="Cantidad de Instalaciones">Cantidad de Instalaciones:</label>
+                                <input type="number" name="Cantidad de Instalaciones">
+                                <label for="Carga horaria">Carga horaria:</label>
+                                <input type="number" name="Carga horaria">
+                                <label for="Valor honorario">Valor honorario:</label>
+                                <input type="number" name="Valor honorario">
+                                <button type="button" id="boton">Enviar</button>
+                            </fieldset>
+                            <fieldset id="instalacion">
+                                <legend>Instalación</legend>
+                                <label for="Nombre">Nombre:</label>
+                                <input type="text" name="Nombre">
+                                <label for="Cantidad de trabajadores">Cantidad de trabajadores:</label>
+                                <input type="number" name="Cantidad de trabajadores">
+                                <label for="Cantidad de dias">Cantidad de días:</label>
+                                <input type="number" name="Cantidad de dias">
+                                <button type="button" id="botonGuardar">Guardar</button>
+                            </fieldset>
+                            <fieldset>
+                                <button type="button" id="botonCalcular">Calcular</button>
+                                <div id="resultados">
+                                    <p> Costo total de un dìa de trabajo:</p>
+                                    <p>Instalación con más producción:</p>
+                                    <p>Porcentaje que ocupa aquella producción:</p>
+                                </div>
+                            </fieldset>
+                        </form>
                     </div>
                     <aside id="contenedor-aside">
                         <p id="texto">Si te interesa conocer más sobre el trabajo de Casey Reas, te recomendamos ver el siguiente video -></p>
@@ -63,4 +95,5 @@
                 </footer>
             </div>
         </body>
+        <script src="../js/script.js"></script>
     </html>
