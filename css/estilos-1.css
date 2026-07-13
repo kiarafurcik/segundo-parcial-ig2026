@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(3, 32, 49);
+    font-family: 'Arvo', serif;
+    color: white;
+}
+.contenedor {
+    background-color: rgba(76, 148, 231, 0.7);
+    width: 60%;
+    margin: 10% auto;
+    padding: 20px;
+}
+h1, p, a {
+    text-align: center;
+}
+a:hover {
+    color: rgb(144, 163, 225);
+}
+a:active {
+    color: rgb(23, 71, 175);
+}
